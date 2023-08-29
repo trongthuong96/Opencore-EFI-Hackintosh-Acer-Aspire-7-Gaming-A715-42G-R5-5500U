@@ -14,7 +14,7 @@ CỔNG KẾT NỐI | HDMI LAN (RJ45) USB 2.0, USB Type-C2 x USB 3.2, Jack tai ng
 CHUỘT | ELAN I2C
 BÀN PHÍM | PS2 (Có đèn bàn phím)
 Ổ CỨNG | 512 GB INTEL 
-WIFI | Mediatek wifi 6 mt7921
+WIFI | Mediatek wifi 6 mt7921 (Đã thay bằng Wifi 6 Intel AX210)
 
 ![THÔNG TIN](OVERVIEW.png?raw=true "THÔNG TIN")
 
@@ -33,7 +33,6 @@ WIFI | Mediatek wifi 6 mt7921
 
 ## KHÔNG HOẠT ĐỘNG
 - Card màn hình rời.
-- Wifi, Bluetooth.
 
 
 ## XUNG NHỊP, NHIỆT ĐỘ, ĐIỆN
