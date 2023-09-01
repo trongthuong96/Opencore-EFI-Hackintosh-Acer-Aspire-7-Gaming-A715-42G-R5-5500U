@@ -23,6 +23,7 @@ WIFI | Mediatek wifi 6 mt7921 (Đã thay bằng Wifi 6 Intel AX210)
 - Chuột nhận đủ 4 ngón hoạt động tốt (HID I2C). 
 - Kết nối màn hình rời qua HDMI tốt.
 - Loa tốt, mic không dùng được (AppleALC.kext layout=3)
+    (Cập nhập: Dùng VoodooHDA.kext theo https://www.insanelymac.com/forum/topic/314406-voodoohda-302/page/19/#comment-2756841 sửa được mic)
 - Xem được phần trăm pin (dùng pin không dùng điện chỉ được khoảng hơn 1 giờ, không biết fix sao cho dùng lâu được)
 - Sleep được (hoàn hảo kể cả chế độ ngủ đông hibernate mode = 25).
 - Camera tốt
