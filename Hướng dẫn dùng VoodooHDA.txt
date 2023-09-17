@@ -1,0 +1,25 @@
+config.plist
+change: csr-active-config 850A0000 DATA
+Trong delete 7C436110-AB2A-4BBB-A880-FE41995C9F82 thêm: csr-active-config
+
+- Copy VoodooHDA.kext ra desktop (VoodooHDA.kext trong github này đã sửa chỉ dùng cho ALC255)
+
+- Nếu không phải thì tải ở https://github.com/CloverHackyColor/VoodooHDA/releases/tag/Release302
+
+- Cài VoodooHDA âm thanh bị rè hay gì thì lấy codec dump âm thanh (hướng dẫn trong: https://github.com/5T33Z0/AppleALC-Guides/tree/main/AppleALC_Layout-ID, lấy đc nút với mã pin được rồi) thay vào NodesToPatch trong info.plist của VoodooHDA.kext
+
+<key>NodesToPatch</key>
+<array>
+	<dict>
+		<key>Codec</key>
+		<integer>0</integer>
+		<key>Config</key>
+		<string>0x90170120</string>
+		<key>Node</key>
+		<integer>20</integer>
+	</dict>
+</array>
+
+thay Node với Config là đc (Config là pin)
+
+- mở terminal dán: sudo cp -R /Users/trongthuong96/Desktop/VoodooHDA.kext /Library/Extensions
